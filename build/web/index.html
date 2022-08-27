@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="javascript/jquery.js"></script>
+        <script type="text/javascript" src="javascript/index.js"></script>
+    </head>
+    <body>
+        <div> 
+            <input type="text" id ="txtLibro_id" placeholder="ID DEL LIBRO">
+            <input type="text" id ="txtEditorial_id" placeholder="ID DEL EDITORIAL">
+            <input type="text" id ="txtTitulo" placeholder="TITULO">
+            <input type="text" id ="txtAutor" placeholder="AUTOR">
+            <input type="text" id ="txtPrecio" placeholder="PRECIO">
+        </div>
+        <button id="btnGet" onClick="obtener();">LISTA</button>
+        <button id="btnPost" onClick="agregar();">INGRESAR</button>
+        <button id="btnDelete" onClick="borrar();">BORRAR</button>
+        <button id="btnUpdate" onClick="actualizar();">ACTUALIZAR</button>
+        <button id="btnSearch" onClick="buscar();">BUSCAR</button>
+        <div id="info">Libros</div>
+    </body>
+</html>
